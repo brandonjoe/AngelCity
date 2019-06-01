@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    z-index: 100;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+     top: -12rem;
+    position: absolute; 
+}
+.block{
+    height: 24rem;
+    width: 32rem;
+    
+    background: red;
+}

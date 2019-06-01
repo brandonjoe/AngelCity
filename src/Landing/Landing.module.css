@@ -1,0 +1,39 @@
+.container{
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0,0,0, .6),
+        rgba(0,0,0, 0)),
+        url("../Media/landingback.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    max-width: 100%;
+} 
+.header{
+    width: 55rem;
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    color: ghostwhite;
+    padding-bottom: 3rem;
+    border-bottom: 3px solid ghostwhite;
+}
+.title{
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+.title2{
+    font-size: 2.5rem;
+
+    margin-bottom: 1.7rem;
+}
+.title3{
+    font-size: 1.7rem;
+    width: 50rem;
+}
