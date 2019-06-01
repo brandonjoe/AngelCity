@@ -1,7 +1,7 @@
 .container{
     top: 0;
     left: 0;
-    height: 200rem;
+    height: 240rem;
     width: 100%;
     background-image: linear-gradient(
         to bottom,
@@ -41,6 +41,21 @@ background-image: linear-gradient(
       #ff8282c4
     );
 }
+.block3{
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    -webkit-clip-path: polygon(0 0, 25% 0, 100% 100%, 75% 100%);
+    clip-path: polygon(0 0, 25% 0, 100% 100%, 75% 100%);
+height: 50rem;
+width: 70rem;
+background-image: linear-gradient(
+      180deg,
+      #ff8282cc,
+      #ff828200
+    );
+    z-index: 0;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -49,7 +64,7 @@ background-image: linear-gradient(
 
 }
 .img{
-    box-shadow: 5px 5px 30rem #000000;
+    box-shadow: 10px 10px 10rem 1.5rem #000000;
 }
 .phase1img{
     height: 50rem;
@@ -115,6 +130,39 @@ background-image: linear-gradient(
      width: 60rem;
      padding-bottom: 2rem;
      border-bottom: 2px solid ghostwhite;
+ }
+ .phase3img{
+     height: 50rem;
+     z-index: 200;
+ }
+ .third{
+     display: flex;
+     flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -15rem;
+    left: -35rem;
+    width: 100%;
+ }
+ .thirdbottom{
+    
+ }
+ .phase3img{
+    margin-bottom: 5rem;
+     height: 50rem;
+ }
+ .phase4img{
+     position: absolute;
+     height: 70rem;
+     right: 0;
+     top: 20rem;
+     z-index: 200;
+     
+ }
+ .thirdtop{
+     z-index: 10;
+     margin-bottom: 5rem;
  }
  @media only screen and (max-width: 1921px){
      .firstleft{
