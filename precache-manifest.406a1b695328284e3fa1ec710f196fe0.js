@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c77c3314be21accdd8432470eb8406c",
+    "revision": "b7f50cea13483ea83a9d8201d03ffdd2",
     "url": "/AngelCity/index.html"
   },
   {
-    "revision": "ca51f22491ab898aea69",
-    "url": "/AngelCity/static/css/main.6beacb73.chunk.css"
+    "revision": "140fa4d84fa75e5661db",
+    "url": "/AngelCity/static/css/main.d09f58b0.chunk.css"
   },
   {
-    "revision": "6da711b1950457c79d9b",
-    "url": "/AngelCity/static/js/2.d7fecc60.chunk.js"
+    "revision": "d470bd3fe084f200d538",
+    "url": "/AngelCity/static/js/2.9c284d09.chunk.js"
   },
   {
-    "revision": "ca51f22491ab898aea69",
-    "url": "/AngelCity/static/js/main.772bac91.chunk.js"
+    "revision": "140fa4d84fa75e5661db",
+    "url": "/AngelCity/static/js/main.5c57bf25.chunk.js"
   },
   {
     "revision": "5b7a27e5ded081d35b30",
@@ -40,7 +40,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AngelCity/static/media/phase1back.724cc262.jpg"
   },
   {
+    "revision": "d9a13154e42de63f0e1468c9a97eb100",
+    "url": "/AngelCity/static/media/phase2.d9a13154.jpg"
+  },
+  {
     "revision": "e17dfb02e9d2b3465f020b38ac79e3be",
     "url": "/AngelCity/static/media/phase3.e17dfb02.jpg"
+  },
+  {
+    "revision": "be0211959eb6a5a584d94fbb9474c84c",
+    "url": "/AngelCity/static/media/phase4.be021195.png"
   }
 ]);
