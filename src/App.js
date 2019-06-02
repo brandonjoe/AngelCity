@@ -2,6 +2,8 @@ import React from 'react';
 import Landing from './Landing/Landing.js'
 import Intro from './Intro/Intro.js'
 import Phase1 from './Phase1/Phase1';
+import Transition from './Transition/Transition';
+import Phase2 from './Phase2/Phase2';
 import './App.css';
 
 function App() {
@@ -9,8 +11,10 @@ function App() {
     <div className="App">
       <Landing />
       <Intro />
-      {/* <Transition /> */}
+     
       <Phase1 />
+       <Transition />
+       <Phase2 />
     </div>
   );
 }

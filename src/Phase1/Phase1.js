@@ -3,7 +3,7 @@ import classes from "./Phase1.module.css";
 import phase1 from "../Media/phase1.jpg";
 import phase2 from "../Media/phase3.jpg";
 import phase3 from "../Media/phase2.jpg";
-import phase4 from "../Media/phase4.png";
+import phase4 from "../Media/phase7.png";
 class Phase1 extends Component {
   render() {
     return (
@@ -79,10 +79,9 @@ class Phase1 extends Component {
       
                 <div className={classes.secondheader}>
                   <div className={classes.title}>
-                    <span className={classes.colorchange}>Dive</span> head first
-                    into action
+                    <span className={classes.colorchange}>Stunning</span> visuals
                   </div>
-                  <div className={classes.title2}>New terrain. New moves.</div>
+                  <div className={classes.title2}>Rebuilt and reimagined from the ground up</div>
                   <div className={classes.text}>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Optio deserunt error maxime earum officiis ullam quod
