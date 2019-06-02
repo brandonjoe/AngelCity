@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63bb82287bc16f62d26d4ac0153652bf",
+    "revision": "feec12fab8ed6d27f26fe91d258f79ed",
     "url": "/AngelCity/index.html"
   },
   {
-    "revision": "344d574732dfada0841c",
-    "url": "/AngelCity/static/css/main.6945479e.chunk.css"
+    "revision": "14fc66481091e77dd631",
+    "url": "/AngelCity/static/css/main.6eb93aad.chunk.css"
   },
   {
     "revision": "d9b24ce50f4054d0b9d6",
     "url": "/AngelCity/static/js/2.075f81dc.chunk.js"
   },
   {
-    "revision": "344d574732dfada0841c",
+    "revision": "14fc66481091e77dd631",
     "url": "/AngelCity/static/js/main.8ddadd0f.chunk.js"
   },
   {
