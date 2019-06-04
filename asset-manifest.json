@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AngelCity/static/css/main.8506492f.chunk.css",
+    "main.css": "/AngelCity/static/css/main.123b7c73.chunk.css",
     "main.js": "/AngelCity/static/js/main.b1d18582.chunk.js",
     "main.js.map": "/AngelCity/static/js/main.b1d18582.chunk.js.map",
     "runtime~main.js": "/AngelCity/static/js/runtime~main.89bbcfd7.js",
@@ -8,9 +8,9 @@
     "static/js/2.35a12a3a.chunk.js": "/AngelCity/static/js/2.35a12a3a.chunk.js",
     "static/js/2.35a12a3a.chunk.js.map": "/AngelCity/static/js/2.35a12a3a.chunk.js.map",
     "index.html": "/AngelCity/index.html",
-    "precache-manifest.fd0f228180deb73a1d290ef98ed9488a.js": "/AngelCity/precache-manifest.fd0f228180deb73a1d290ef98ed9488a.js",
+    "precache-manifest.55e24f3f2be375a4662d9f19413c0b79.js": "/AngelCity/precache-manifest.55e24f3f2be375a4662d9f19413c0b79.js",
     "service-worker.js": "/AngelCity/service-worker.js",
-    "static/css/main.8506492f.chunk.css.map": "/AngelCity/static/css/main.8506492f.chunk.css.map",
+    "static/css/main.123b7c73.chunk.css.map": "/AngelCity/static/css/main.123b7c73.chunk.css.map",
     "static/media/intro2.png": "/AngelCity/static/media/intro2.65e64540.png",
     "static/media/Landing.module.css": "/AngelCity/static/media/landingback.b5d098a0.jpg",
     "static/media/Intro.module.css": "/AngelCity/static/media/landingback2.5e28ad3f.jpg",
