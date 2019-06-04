@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feec12fab8ed6d27f26fe91d258f79ed",
+    "revision": "58922205734e5a917e0e627c784efcc8",
     "url": "/AngelCity/index.html"
   },
   {
-    "revision": "14fc66481091e77dd631",
-    "url": "/AngelCity/static/css/main.6eb93aad.chunk.css"
+    "revision": "e71543d62510975cdd0c",
+    "url": "/AngelCity/static/css/main.01e2e9f0.chunk.css"
   },
   {
-    "revision": "d9b24ce50f4054d0b9d6",
-    "url": "/AngelCity/static/js/2.075f81dc.chunk.js"
+    "revision": "a6ce16ca9f529ab0bb82",
+    "url": "/AngelCity/static/js/2.35a12a3a.chunk.js"
   },
   {
-    "revision": "14fc66481091e77dd631",
-    "url": "/AngelCity/static/js/main.8ddadd0f.chunk.js"
+    "revision": "e71543d62510975cdd0c",
+    "url": "/AngelCity/static/js/main.b1d18582.chunk.js"
   },
   {
     "revision": "5b7a27e5ded081d35b30",
@@ -52,15 +52,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AngelCity/static/media/phase2back.d922cffa.jpg"
   },
   {
+    "revision": "ddc7513acf739a0b82050d5768c477ea",
+    "url": "/AngelCity/static/media/phase3.ddc7513a.png"
+  },
+  {
     "revision": "e17dfb02e9d2b3465f020b38ac79e3be",
     "url": "/AngelCity/static/media/phase3.e17dfb02.jpg"
   },
   {
-    "revision": "dfff11f08d403a7706795b7d0a5863f4",
-    "url": "/AngelCity/static/media/phase7.dfff11f0.png"
+    "revision": "5dc08684d70adcb7486340a20bad7af0",
+    "url": "/AngelCity/static/media/phase3back.5dc08684.jpg"
+  },
+  {
+    "revision": "13ce8abac98def15d648a42966eb0d24",
+    "url": "/AngelCity/static/media/phase7.13ce8aba.png"
   },
   {
     "revision": "1cedeea1244bae6f658b026f8f662105",
     "url": "/AngelCity/static/media/transition.1cedeea1.jpg"
+  },
+  {
+    "revision": "67f6ce5d169572d625e409454f67ca04",
+    "url": "/AngelCity/static/media/transition2.67f6ce5d.jpg"
   }
 ]);
