@@ -6,6 +6,7 @@ import Transition from './Transition/Transition';
 import Phase2 from './Phase2/Phase2';
 import Transition2 from './Transition2/Transition2';
 import Phase3 from './Phase3/Phase3';
+import Footer from './Footer/Footer';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
        <Phase2 />
        <Transition2 />
        <Phase3 />
+       
     </div>
   );
 }

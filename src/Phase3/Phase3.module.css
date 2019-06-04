@@ -1,4 +1,6 @@
 .container {
+
+    position: relative;
   top: 0;
   left: 0;
   height: 130rem;
@@ -93,6 +95,7 @@
 }
 .colorchange {
   color: #ff8282;
+  
 }
 @media only screen and (max-width: 1920px) {
     .pilotinfo{
@@ -129,8 +132,8 @@
 
     position: relative;
     top: -12rem;
-    width: 40rem;
-    height: 40rem;
+    width: 37rem;
+    height: 37rem;
     background-image: linear-gradient(to bottom, #000000b7, #00000000);
     color: ghostwhite;
     text-align: center;

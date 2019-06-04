@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import classes from "./Phase3.module.css";
 import phase31 from "../Media/phase3.png";
+import Footer from '../Footer/Footer'
 class Phase3 extends Component {
   render() {
     return (
@@ -56,7 +57,7 @@ class Phase3 extends Component {
               </div>
           </div>
         </div>
-        
+        <Footer />
       </div>
     );
   }

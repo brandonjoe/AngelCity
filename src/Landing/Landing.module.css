@@ -46,7 +46,7 @@
 @media only screen and (max-width: 600px){
     .header{
         width: 37rem;
-        left: 0;
+        left: 4%;
     }
     .title{
         font-size: 4rem;
@@ -57,9 +57,9 @@
 }
 @media only screen and (max-width: 525px){
     .header{
-        width: 37rem;
+        width: 34rem;
     }
     .title3{
-        width: 37rem;
+        width: 34rem;
     }
 }

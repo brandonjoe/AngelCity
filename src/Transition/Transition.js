@@ -7,7 +7,7 @@ class Transition extends Component {
                 <div className={classes.main}>
                     <div className={`${classes.block}`}>
                         <div className={classes.title}>
-                        <span className={classes.colorchange}>Customize</span> like never before. 
+                        <span className={classes.colorchange}>Customize</span> like never before 
                         </div>
                     </div>
                 </div>
