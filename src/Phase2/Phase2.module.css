@@ -1,92 +1,131 @@
 .container {
-    top: 0;
-    left: 0;
-    height: 140rem;
-    width: 100%;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.452)
-      ),
-      url("../Media/phase2back.jpg");
-    background-size: cover;
-    background-repeat: none;
-    background-position: center;
-    max-width: 100%;
-    color: ghostwhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  top: 0;
+  left: 0;
+  height: 140rem;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.452)
+    ),
+    url("../Media/phase2back.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  max-width: 100%;
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  width: 60rem;
+  align-self: flex-end;
+  margin-bottom: 15rem;
+}
+.right {
+  width: 60rem;
+}
+.middle {
+  position: relative;
+}
+.phase21img {
+  position: absolute;
+  bottom: 0;
+  height: 90rem;
+  z-index: 200;
+}
+.midblock {
+  height: 60rem;
+  width: 45rem;
+  background-image: linear-gradient(180deg, #d66d6de1, #d66d6ddc);
+  z-index: 0;
+}
+.midblock2 {
+  transform: translate(50%, 0);
+  position: absolute;
+  height: 40rem;
+  width: 45rem;
+  background-image: linear-gradient(to bottom, #d66d6ddc, #c9666600);
+  z-index: 0;
+  -webkit-clip-path: polygon(20% 0, 50% 0, 100% 100%, 70% 100%);
+  clip-path: polygon(20% 0, 50% 0, 100% 100%, 70% 100%);
+}
+.header {
+  height: 35rem;
+  background-image: linear-gradient(180deg, #000000a9, #00000000);
+  padding: 2rem;
+}
+.title {
+  font-size: 3rem;
+  letter-spacing: 4px;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+.colorchange {
+  color: #ff8282;
+}
+.title2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.title3 {
+  font-size: 1.7rem;
+}
+@media only screen and (max-width: 1660px) {
+  .midblock2 {
+    display: none;
   }
-  .main{
+  .container {
+    height: 180rem;
+  }
+  .main {
     height: 80rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+    flex-direction: column;
   }
-  .left{
-    width: 60rem;
-    align-self: flex-end;
-    margin-bottom: 15rem;
+  .left {
+    z-index: 1000;
   }
-  .right{
-    width: 60rem;
+  .middle {
+    margin-bottom: 3rem;
   }
-  .middle{
-    position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 200rem;
   }
-  .phase21img{position: absolute;
-    bottom: 0;
-    height: 90rem;
-    z-index: 200;
+  .title {
+    font-size: 3rem;
+  }
+  .left {
+    width: 37rem;
+    align-self: auto;
+    margin-bottom: 25rem;
+  }
+  .right {
+    width: 37rem;
+    
+  }
+  .phase21img {
+    height: 50rem;
   }
   .midblock{
-    
-    height: 60rem;
-    width: 45rem;
-    background-image: linear-gradient(
-      180deg,
-      #d66d6de1,
-      #d66d6ddc
-    );
-    z-index: 0;
-  }
-  .midblock2{
-    transform: translate(50%, 0);
-    position: absolute;
     height: 40rem;
-    width: 45rem;
-    background-image: linear-gradient(
-      to bottom,
-      #d66d6ddc,
-      #c9666600
-    );
-    z-index: 0;
-    -webkit-clip-path: polygon(20% 0, 50% 0, 100% 100%, 70% 100%);
-    clip-path: polygon(20% 0, 50% 0, 100% 100%, 70% 100%);
+    width: 25rem;
   }
-  .header{
-    height: 35rem;
-    background-image: linear-gradient(
-      180deg,
-      #000000a9,
-      #00000000
-    );
-    padding: 2rem;
-  }
-  .title{
-    font-size: 3rem;
-    letter-spacing:4px;
-    line-height: 6rem;
-    margin-bottom: 2rem;
 }
-.colorchange{
-   color:#ff8282;
+@media only screen and (max-width: 400px){
+.main{
+  height: 100%;
 }
-.title2{
-    font-size: 2rem;
-    margin-bottom: 2rem;
+.left{
+  top: -50rem;
 }
-.title3{
-    font-size: 1.7rem;
 }

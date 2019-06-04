@@ -5,7 +5,7 @@
 .main{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-end;
     align-content: center;
      top: -10rem;
     position: absolute; 
@@ -17,13 +17,13 @@
     align-items: center;
     height: 18rem;
     width: 70%;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.856),
         rgba(0, 0, 0, 0.863)),
-        url("../Media/transition2.jpg");
+        url("../Media/transition.jpg");
         background-size: 100%;
         background-repeat: none;
         background-position: center;
@@ -35,14 +35,8 @@
 .colorchange{
     color:#ff8282;
  }
- @media only screen and (max-width: 1200px){
+ @media only screen and (max-width: 800px){
     .block{
         width: 100%;
-    }
-}
-@media only screen and (max-width: 800px){
-    .title{
-        font-size: 3rem;
-        float: left;
     }
 }

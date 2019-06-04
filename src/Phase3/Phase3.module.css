@@ -1,0 +1,154 @@
+.container {
+  top: 0;
+  left: 0;
+  height: 130rem;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../Media/phase3back.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  max-width: 100%;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phase31img {
+  width: 70rem;
+}
+.block1 {
+  top: 10rem;
+  position: relative;
+  -webkit-clip-path: polygon(100% 0, 90% 50%, 0 100%, 10% 50%);
+  clip-path: polygon(100% 0, 90% 50%, 0 100%, 10% 50%);
+  height: 20rem;
+  width: 80rem;
+  background-image: linear-gradient(180deg, #d66d6d, #d66d6d);
+  z-index: 0;
+}
+.left {
+  margin-right: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pilotinfo {
+  align-self: flex-end;
+  padding-top: 13rem;
+  -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+  position: relative;
+  top: -12rem;
+  width: 50rem;
+  height: 40rem;
+  background-image: linear-gradient(to bottom, #000000b7, #00000000);
+  color: ghostwhite;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.data {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 35rem;
+  margin-bottom: 2rem;
+}
+.header {
+  margin-top: 5rem;
+  text-align: right;
+  width: 70rem;
+  border-bottom: 2px solid ghostwhite;
+  padding-bottom: 2rem;
+}
+.title {
+  font-size: 5rem;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+.title2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.colorchange {
+  color: #ff8282;
+}
+@media only screen and (max-width: 1920px) {
+    .pilotinfo{
+        -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@media only screen and (max-width: 1615px) {
+  .left {
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 1430px) {
+  .left {
+    margin-bottom: -15rem;
+  }
+  .container {
+    height: auto;
+    padding: 10rem 0 10rem 0;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .phase31img {
+    width: 50rem;
+  }
+  .pilotinfo {
+    align-self: flex-end;
+    padding-top: 13rem;
+    -webkit-clip-path: polygon(100% 9%, 100% 100%, 0 100%, 0 30%);
+    clip-path: polygon(100% 9%, 100% 100%, 0 100%, 0 30%);
+
+    position: relative;
+    top: -12rem;
+    width: 40rem;
+    height: 40rem;
+    background-image: linear-gradient(to bottom, #000000b7, #00000000);
+    color: ghostwhite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .header {
+    text-align: center;
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .phase31img {
+    width: 37rem;
+  }
+  .header{
+      width: 37rem;
+  }
+}

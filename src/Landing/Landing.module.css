@@ -38,3 +38,28 @@
     width: 50rem;
     
 }
+@media only screen and (max-width: 1500px){
+    .header{
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .header{
+        width: 37rem;
+        left: 0;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .title3{
+        width: 45rem;
+    }
+}
+@media only screen and (max-width: 525px){
+    .header{
+        width: 37rem;
+    }
+    .title3{
+        width: 37rem;
+    }
+}

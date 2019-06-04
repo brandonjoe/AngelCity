@@ -4,6 +4,8 @@ import Intro from './Intro/Intro.js'
 import Phase1 from './Phase1/Phase1';
 import Transition from './Transition/Transition';
 import Phase2 from './Phase2/Phase2';
+import Transition2 from './Transition2/Transition2';
+import Phase3 from './Phase3/Phase3';
 import './App.css';
 
 function App() {
@@ -13,8 +15,10 @@ function App() {
       <Intro />
      
       <Phase1 />
-       <Transition />
+       <Transition/>
        <Phase2 />
+       <Transition2 />
+       <Phase3 />
     </div>
   );
 }
