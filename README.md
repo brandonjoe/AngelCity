@@ -44,7 +44,7 @@ This is my 2nd project with the sole goal of design. There isn't any functionali
 
 ```
 
-HTML/CSS, Javascript/React
+HTML/CSS, Javascript/React, Photoshop
 
 ```
 
